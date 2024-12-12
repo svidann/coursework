@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шенген</title>
+    <link rel="stylesheet" href="./style/dist/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg" href="./png/icon.svg">
+</head>
+    <body>
+        <header>
+            <section>
+                <h2 class="hide">Заголовок</h2>
+                <div class="container header">
+                    <a href="./index.html"><img src="./png/logo.svg" alt="Логотип"></a>
+    
+                    <nav>
+                        <ul class="list">
+                            <li class="list_item list_item_special">
+                                <select id="products" name="products" class="list_item_products" onchange="location = this.value;">
+                                    <option value="0" disabled selected class="hide">Продукты </option>
+                                    <option value="Schengen.html">Страхование для Шенгена</option>
+                                    <option value="#">Страхование для России</option>
+                                    <option value="#">Горнолыжная страховка</option>
+                                    <option value="#">Годовая страховка</option>
+                                </select>
+                            </li>
+                            <a href="#reviews">
+                                <li class="list_item">Отзывы</li>
+                            </a>
+                            <a href="./Error.html">
+                                <li class="list_item">Партнерам</li>
+                            </a>   
+                        </ul>
+                    </nav>
+                    <a href="./Error.html">
+                        <div class="button">
+                            <img src="./png/mail.svg" alt="Иконка конверта">
+                            Скидки
+                        </div>
+                    </a>
+                    <div class="menu">
+                        <img src="./png/Menu.svg" alt="Menu">
+                    </div>
+                </div>
+              
+            </section>
+            <section class="first">
+                <div class="container">
+                    <div class="page">
+                        <h1 class="page_heading">Медицинская страховка для Шенгенской визы</h1>
+                        <p class="page_heading page_heading_sub">Полис, который действительно работает</p>
+    
+                    <form class="form">
+                        <select id="people" name="people" class="form_country">
+                            <option value="0" disabled selected class="hide">Куда едем?</option> 
+                            <option value="1">Абхазия</option>
+                            <option value="2">Австралия</option>
+                            <option value="3">Австрия</option>
+                            <option value="4">Алжир</option>
+                            <option value="4">Абхазия</option>
+                        </select>
+                    
+                            <div class="form_date">
+                                <input type="date" name="end-date" value="2023-03-05">
+                            </div>
+                            
+    
+                            <div class="form_date"> 
+                                <input type="date" name="end-date" value="2023-03-05">
+                            </div>
+                           
+                        
+                            <div class="form_people"> 
+                                <input type="checkbox" id="dropdownCheckbox" class="dropdown-checkbox"> 
+                                <label for="dropdownCheckbox" class="dropdown-button special" >1 человек</label> 
+                                <div class="dropdown-content"> 
+                                    <div class="dropdown-item "> 
+                                        <label for="children-3">Дети до 3-х лет</label> 
+                                        <input type="number" class="custom-number-input-wrapper" id="children-3" name="children-3" value="0" min="0" max="4"> 
+                                    </div> 
+                                    
+                                    <div class="dropdown-item"> 
+                                        <label for="children">Дети <br> от 4 до 17 лет</label> 
+                                        <input type="number" class="custom-number-input-wrapper" id="children" name="children" value="0" min="0" max="4"> 
+                                    </div>
+    
+                                    <div class="dropdown-item"> 
+                                        <label for="adult">Взрослые <br> от 18 до 69 лет </label> 
+                                        <input type="number" class="custom-number-input-wrapper" id="adult" name="adult" value="0" min="0" max="4"> 
+                                    </div>
+    
+                                    <div class="dropdown-item"> 
+                                        <label for="adults-70">Взрослые <br> от 70 до 79 лет</label> 
+                                        <input type="number" class="custom-number-input-wrapper" id="adults-70" name="adults-70" value="0" min="0" max="4"> 
+                                    </div>
+    
+                                    </div>  
+                                </div>
+    
+                    </form>
+                    <a href="Error.html">
+                        <div class="button button-purple">
+                            Узнать стоимость
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <section class="info-schengen">
+                <div class="container">
+                    <h2 class="hide">Заголовок</h2>
+                <div class="container-shengen">
+                    <div class="info-schengen-flex">
+                        <div class="info-schengen-card"><img src="./png/Medicine-amico.svg" alt="Иллюстрация Амико" class="info-schengen-card-img"><p class="info-schengen-card-info">Лучшие клиники</p></div>
+                        <div class="info-schengen-card"><img src="./png/Online_Doctor-rafiki.svg" alt="Иллюстрация Рафики" class="info-schengen-card-img"><p class="info-schengen-card-info">Помощь 24/7</p></div>
+                        <div class="info-schengen-card"><img src="./png/Person_with_medical_mask-pana.svg" alt="Иллюстрация маска" class="info-schengen-card-img"><p class="info-schengen-card-info">Подходит для визы</p></div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            
+            <section class="medicine">
+                <div class="container">
+                    <h2 class="section_heading">Кому нужна медицинская страховка для Шенгена</h2>
+                    <div class="medicine-flex">
+                        <div class="medicine-flex-grid">
+                            <p class="medicine-text">Страховка понадобится, если вы собираетесь в одну или несколько стран шенгенской зоны: Австрия, Бельгия, Чешская Республика, Дания, Эстония, Финляндия, Франция, Германия, Греция, Венгрия, Исландия, Испания, Италия, Латвия, Литва, Лихтенштейн, Люксембург, Мальта, Нидерланды, Норвегия, Польша, Португалия, Словакия, Словения, Швеция, Швейцария. Tripinsurance – это компания, где вы можете оформить и купить медицинскую туристическую страховку для шенгенской визы онлайн. Полисы нашей компании соответствуют всем визовым нормам и стандартам.</p>
+                            <p class="get">Почему оформление полиса обязательно:</p>
+                            <ul class="med-list">
+                                <li class="med-list-item">По требованию визового законодательства, иностранные граждане, въезжающие на территорию стран шенгенской зоны, должны иметь страховку.</li>
+                                <li class="med-list-item">Если зайдете на сайт консульства любой из стран-участниц шенгенского соглашения, то в перечне документов для получения визы будет указана медицинская страховка.</li>
+                                <li class="med-list-item">Если вы получили мультивизу, то обратите внимание, что страховка обязательно нужна для каждой поездки.</li>
+                                <li class="med-list-item">Таможенные службы при пересечении границы могут запрашивать не только паспорт с визой, но и страховку. Такие случаи бывают на границах Польши, Финляндии, Чехии.</li>
+                                <li class="med-list-item">Но сделать мед. страховку для шенгенской визы онлайн в первую очередь необходимо для своевременного получения медицинской помощи.</li>
+                            </ul>
+                        </div>
+
+                        <img src="./png/Journey-amico.svg" alt="Иллюстрация Амико">
+                    </div>
+                </div>
+            </section>
+
+            <section class="polis">
+                <div class="container">
+                    <h2 class="section_heading">Как купить полис?</h2>
+                    <div class="flex">
+                        <div class="flex-card">
+                            <div class="card">
+                                <span class="card_number">1</span>
+                                <img src="./png/calc.svg" alt="Калькулятор">
+                                <p class="card_text">Рассчитайте онлайн стоимость полиса</p>
+                            </div>
+        
+                            <div class="card">
+                                <span class="card_number">2</span>
+                                <img src="./png/write.svg" alt="Введите">
+                                <p class="card_text">Введите данные о вашей поездке</p>
+                            </div>
+                        </div>
+    
+                        <div class="flex-card">
+                            <div class="card">
+                                <span class="card_number">3</span>
+                                <img src="./png/wallet.svg" alt="Кошелек">
+                                <p class="card_text">Оплатите полис через интернет</p>
+                            </div>
+        
+                            <div class="card">
+                                <span class="card_number">4</span>
+                                <img src="./png/print.svg" alt="Принтер">
+                                <p class="card_text">Получите полис на e-mail и распечатайте</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="adv">
+                <div class="container">
+                        <h2 class="section_heading">Преимущества обращения в нашу компанию</h2>
+                        <div class="adv_flex">
+                            <div class="adv_flex_group">
+                                <div class="adv_flex_item">
+                                    <img src="./png/Frame.svg" alt="Иллюстрация №1">
+                                    <h2>Надежная сервисная компания</h2>
+                                    <p>Клиентов обслуживает наш собственный сервисный центр Tripinsurance. Мы отслеживаем качество оказаннной медицинской помощи, отбираем лучшие клиники для наших клиентов.</p>
+                                </div>
+                                
+                                <div class="adv_flex_item">
+                                    <img src="./png/Frame1.svg" alt="Иллюстрация №2">
+                                    <h2>Для активных путешественников</h2>
+                                    <p>Страховка может быть краткосрочной, для нескольких длительных поездок (до 91 дня) в течение года и для путешествий, которые длятся целый год. Если вы часто путешествуете, то годовые страховки помогут сэкономить.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="adv_flex_group">
+                                <div class="adv_flex_item">
+                                    <img src="./png/Frame2.svg" alt="Иллюстрация №3">
+                                    <h2>Аккредитация страховой компании</h2>
+                                    <p>Некоторые европейские консульства (например, Финляндии, Австрии) создают списки аккредитованных компаний. Компания Tripinsurance оформляет полисы от имени страховой компании, которая аккредитована всеми дипломатическими представительствами.</p>
+                                </div>
+    
+                                <div class="adv_flex_item">
+                                    <img src="./png/Frame3.svg" alt="Иллюстрация №4">
+                                    <h2>Без франшизы</h2>
+                                    <p>Некоторые компании предлагают купить страховку для Шенгена онлайн дешево, вводя франшизу (неоплачиваемую часть расходов) в полис. Мы предлагаем программы без франшизы. У наших клиентов нет дополнительных затрат, если полис куплен до начала поездки.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                </div>
+            </section>
+            <div class="marquee">
+                <span>Великобритания Германия Франция Чехия Дания Финляндия</span>
+            </div>
+    
+            <div class="marquee marquee-right">
+                <span>Великобритания Германия Франция Чехия Дания Финляндия</span>
+            </div>
+            <section class="reviews" id="reviews">
+                <div class="container">
+                    <h2 class="section_heading">Отзывы</h2>
+                    <div class="slider__wrapper" id="slider-container">
+                        <div class="reviews_flex" id="slider-wrapper">
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+    
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+                            
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+    
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+    
+                            <div class="reviews_item">
+                                <div class="group">
+                                    <div class="reviews_item_stars">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                        <img src="./png/Star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="reviews_item_data">05/02/2023</div>
+                                </div>
+                                <p class="reviews_item_info">Много лет пользуюсь предпочитаю другим компаниям! Оперативный чат, посмотрим
+                                    как будет дальше! Пока все отлично)</p>
+                                <div class="avatar">
+                                    <div class="reviews_item_avatar"></div>
+                                    <p class="reviews_item_name">Василий Петров</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="reviews_slider" id="dots-wrapper">
+                        
+                    </div>
+                    
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <section>
+                <h2 class="hide">Заголовок</h2>
+                <div class="container">
+                    <div class="footer-grid">
+                        <div class="ft-item">
+        
+                            <p class="ft-heading">Информационный центр</p>
+                            <ul class="ft-list">
+                                <a href="#info">
+                                    <li class="ft-list-item">О нас</li>
+                                </a>
+                                <a href="#rewiews">
+                                    <li class="ft-list-item">Отзывы</li>
+                                </a>
+                                <a href="#">
+                                    <li class="ft-list-item">Партнерам</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="ft-heading">Продукты</p>
+                            <ul class="ft-list">
+                                <a href="Schengen.html">
+                                    <li class="ft-list-item">Страховка для Шенгена</li>
+                                </a>
+                                <a href="#">
+                                    <li class="ft-list-item">Страховка для России</li>
+                                </a>
+                                <a href="#">
+                                    <li class="ft-list-item">Страховка в страны</li>
+                                </a>
+                                <a href="#">
+                                    <li class="ft-list-item">Горнолыжная страховка</li>
+                                </a>
+                                <a href="#">
+                                    <li class="ft-list-item">Годовая страховка</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div>
+        
+                            <p class="ft-heading">Документы</p>
+                            <ul class="ft-list">
+                                <a href="#">
+                                    <li class="ft-list-item">Пользовательское соглашение</li>
+                                </a>
+                                <a href="#">
+                                    <li class="ft-list-item">Политика обработки данных</li>
+                                </a>
+                                <a href="#">
+                                    <li class="ft-list-item">Политика информационной безопасности</li>
+                                </a> 
+                            </ul>
+        
+                        </div>
+        
+                        <div>
+                            <p class="ft-heading">Связаться с нами</p>
+                            <div class="ft-social">
+    
+                                <div class="ft-social-half">
+                                    <a href="https://www.youtube.com" target="_blank">
+                                        <img src="./png/youtube.png" alt="YouTube Logo">
+                                    </a>
+                                    <a href="https://vk.com/" target="_blank">
+                                        <img src="./png/vk.png" alt="VK Logo">
+                                    </a>
+                                    <a href="https://ru-ru.facebook.com/" target="_blank">
+                                        <img src="./png/facebook.png" alt="Facebook Logo">
+                                    </a>
+                                    <a href="http://twitter.com/" target="_blank">
+                                        <img src="./png/twitter.png" alt="Twitter Logo">
+                                    </a>
+                                </div>
+                                <div class="ft-social-half">
+                                    <a href="https://www.tiktok.com/" target="_blank">
+                                        <img src="./png/tiktok.png" alt="TikTok Logo">
+                                    </a>
+                                    <a href="https://www.instagram.com/" target="_blank">
+                                        <img src="./png/instagram.png" alt="Instagram Logo">
+                                    </a>
+                                    <a href="https://t.me/telegram" target="_blank">
+                                        <img src="./png/telegram.png" alt="Telegram Logo">
+                                    </a>
+                                    <a href="https://wa.me/71234567890" target="_blank"><img src="./png/whatsapp.png" alt="WhatsApp Logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer> 
+        <script src="js/slider.js"></script>
+    </body>
+</html>
