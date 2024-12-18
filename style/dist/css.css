@@ -145,7 +145,7 @@ img {
 }
 .form_date input::-webkit-calendar-picker-indicator {
   position: absolute;
-  content: url(/png/calendar.svg);
+  content: url(../../png/calendar.svg);
   left: 0%;
   height: 32px;
   width: 32px;
@@ -162,7 +162,7 @@ img {
   border: 0;
 }
 .form .dropdown-button::after {
-  content: url(/png/arrow_purple.svg);
+  content: url(../../png/arrow_purple.svg);
   position: absolute;
   right: -8px;
   top: 22%;
