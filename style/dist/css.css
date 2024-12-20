@@ -1145,7 +1145,9 @@ footer {
     max-height: 300px;
     margin: 0;
   }
-
+   .form .dropdown-content {
+    width: 137%;
+  }
   .first {
     padding: 40px 0 40px 0;
   }
