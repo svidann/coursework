@@ -77,7 +77,7 @@ img {
   margin-right: 15px;
 }
 .list_item_special::after {
-  content: url(/png/list_arrow.svg);
+  content: url(../../png/list_arrow.svg);
   height: 16px;
   width: 16px;
   position: absolute;
@@ -145,7 +145,7 @@ img {
 }
 .form_date input::-webkit-calendar-picker-indicator {
   position: absolute;
-  content: url(/png/calendar.svg);
+  content: url(../../png/calendar.svg);
   left: 0%;
   height: 32px;
   width: 32px;
@@ -162,7 +162,7 @@ img {
   border: 0;
 }
 .form .dropdown-button::after {
-  content: url(/png/arrow_purple.svg);
+  content: url(../../png/arrow_purple.svg);
   position: absolute;
   right: -8px;
   top: 22%;
@@ -214,7 +214,7 @@ img {
   border-radius: 5px;
 }
 .form input[type=number]::-webkit-inner-spin-button {
-  content: url(/png/plus.svg);
+  content: url(../../png/plus.svg);
   -webkit-appearance: none;
   position: absolute;
   height: 16px;
@@ -1054,7 +1054,7 @@ footer {
     line-height: 30px;
   }
   .form_people .dropdown-button::after {
-    content: url(/png/arrow_purple.svg);
+    content: url(../../png/arrow_purple.svg);
     position: absolute;
     right: 10px;
     top: 22%;
